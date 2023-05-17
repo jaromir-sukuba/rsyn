@@ -4380,7 +4380,7 @@
     (property "Reference" "U10" (at 70.5994 87.1052 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "ATmega8A-A" (at 70.5994 89.6421 0)
+    (property "Value" "AT90S4433" (at 70.5994 89.6421 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Package_QFP:TQFP-32_7x7mm_P0.8mm" (at 66.04 123.825 0)
