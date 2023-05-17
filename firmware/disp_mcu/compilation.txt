@@ -1,0 +1,5 @@
+Binary file for AT90S4433 was built and flashed into target AVR running those commands
+
+avr-gcc -mmcu=at90s4433 -Wall -Os -o main.elf main.c
+avr-objcopy -j .text -j .data -O ihex main.elf main.hex
+avrdude -p 4433 -c usbtiny -e -U flash:w:main.hex

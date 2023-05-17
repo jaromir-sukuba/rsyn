@@ -1,0 +1,1 @@
+MPLAB 6.05 project, requires XC8 compiler.
