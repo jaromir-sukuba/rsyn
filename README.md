@@ -107,7 +107,7 @@ For parameter verification, I performed two tests: a linearity check and short-t
 ![enter image description here](https://github.com/jaromir-sukuba/rsyn/blob/main/media/ss3-lin.png)
 For the linearity test, I set the values of the DAC converter to values from 0 to 262143 in increments of 32768. I measured the resitance values using an HP34401A multimeter and calculated the difference from the linear fit of the values, expressed in the least significant digits of the value. As apparent from the graph, the typical deviation from linearity is around 0.2 LSB, indicating that the used DAC has very good linearity, and apart from that, linearity isn't degraded by the analog functionality (chosen opamps and reference resistors).
 Short-term stability: I measured the value of resistance set to 5 kOhm over the course of one hour. The value was stable within the 20 mOhm range. 
-https://github.com/jaromir-sukuba/rsyn/blob/main/media/ss4-stab.png
+![enter image description here](https://github.com/jaromir-sukuba/rsyn/blob/main/media/ss4-stab.png)
 
 # Resources
 A video showing the synthesizer in operation is at https://youtu.be/5EVBY4_3-oE
